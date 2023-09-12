@@ -1,0 +1,8 @@
+#tuples=orderd and unchangeable used to group together realed data
+student=["bro","12","male"]
+print(student.count("bro"))
+print(student.index("male"))
+for x in student:
+    print(x)
+if "bro"in student:
+    print("bro is here")
